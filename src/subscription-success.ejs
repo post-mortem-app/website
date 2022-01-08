@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Roam-bot - Subscription error</title>
+    <%- include ('./_head.ejs') %>
+</head>
+<body>
+<%- include ('./_header.ejs') %>
+
+<div class="relative py-16 bg-white overflow-hidden">
+    <div class="relative px-4 sm:px-6 lg:px-8">
+        <div class="text-lg max-w-prose prose prose-lg mx-auto">
+            <h1>
+                <span class="block text-center text-yellow-600 font-semibold tracking-wide uppercase">🙌 You are good to go!</span>
+            </h1>
+
+            <p>
+                Thanks for subscribing!
+
+                Your account is now active.
+
+                <strong>Be sure to have used for your subscription the same email you use for your Roam Research
+                    account</strong> otherwise the Zapier app won't work at the authentication step.
+            </p>
+
+            <p>If you made a mistake please contact me at <a
+                        href="mailto:support@roam-bot.com">support@roam-bot.com</a> and I will fix it right away!
+            </p>
+
+            <p>You are one step away from fully automating your second brain!</p>
+
+            <p>Now click on the button below to activate Roam-bot app inside your Zapier account and use your Roam Research credentials to authenticate.</p>
+        </div>
+
+        <a href="https://zapier.com/developer/public-invite/149844/c74760a59a9c021e4ed6926745cbd5ed/"
+           class="max-w-prose mx-auto my-10 no-underline w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-400 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10">
+            Connect your Roam graph on Zapier now
+        </a>
+
+        <%- include('./_features') %>
+
+    </div>
+</div>
+
+<%- include ('./_footer.ejs') %>
+
+</body>
+</html>

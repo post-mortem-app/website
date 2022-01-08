@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Post-Mortem - Manage your incidente to 360</title>
+    <%- include ('./_head.ejs') %>
+</head>
+<body>
+
+<%- include ('./_header.ejs') %>
+
+
+<a name="how-it-works"></a>
+<div class="bg-white">
+    <!-- Header -->
+    <div class="relative mt-6 pb-32 bg-gray-800">
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover"
+                 src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
+                 alt="">
+            <div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <span class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Manage your <span
+                        class='block text-green-500 xl:inline'>incidents</span> and <span
+                        class='block text-green-500 xl:inline'>post-mortems</span> <br> with <span
+                        class='block text-green-500 xl:inline'>Post-Mortem</span>
+            </span>
+            <p class="mt-6 max-w-3xl text-xl text-gray-300">Make easy incidents monitoring in real-time with your team. Make easy the communication accross your company or to an external audience.</p>
+        </div>
+    </div>
+
+    <!-- Overlapping cards -->
+    <section class="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8"
+             aria-labelledby="contact-heading">
+        <h2 class="sr-only" id="contact-heading">Free your data</h2>
+        <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+            <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+                <div class="card flex-1 relative pt-16 px-6 pb-6 md:px-8">
+                    <div class="absolute top-0 p-5 inline-block bg-green-400 rounded-xl shadow-lg transform -translate-y-1/2">
+                        <!-- Heroicon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium text-gray-900">1 - Create an account</h3>
+                    <p class="mt-4 text-base text-gray-500">Create a <strong>free account</strong> to access to post-mortem with your personal or professional email.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+                <div class="card flex-1 relative pt-16 px-6 pb-6 md:px-8">
+                    <div class="absolute top-0 p-5 inline-block bg-green-400 rounded-xl shadow-lg transform -translate-y-1/2">
+                        <!-- Heroicon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium text-gray-900">2 - Declare your first incident</h3>
+                    <p class="mt-4 text-base text-gray-500">Declare your incident, start monitoring, define a severity with a guided fully-guided experience.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col bg-white rounded-2xl shadow-xl">
+                <div class="card flex-1 relative pt-16 px-6 pb-6 md:px-8">
+                    <div class="absolute top-0 p-5 inline-block bg-green-400 rounded-xl shadow-lg transform -translate-y-1/2">
+                        <!-- Heroicon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium text-gray-900">3 - Communicate easily</h3>
+                    <p class="mt-4 text-base text-gray-500">Choose your canal of communication staying internal or external. Control what informations have to be published. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<%- include('./_features') %>
+
+
+
+<a name="pricing" id="pricing"></a>
+<div class="bg-white border-b border-t pt-10 border-gray-200">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <div class="pb-16 xl:flex xl:items-center xl:justify-between">
+            <div>
+                <h1 class="text-4xl font-extrabold sm:text-5xl sm:tracking-tight">
+                    <span class="text-gray-900">Start for </span>
+                    <span class="text-green-500">free</span>
+                </h1>
+                <p class="mt-5 text-xl text-gray-500">Not enough? Get in touch with us to see how can we upgrade your account</p>
+            </div>
+
+            <a href="https://app.post-mortem.app"
+               target='_blank'
+               class="mt-8 w-full bg-green-400 border border-transparent px-5 py-3 inline-flex items-center justify-center text-base font-medium rounded-md text-white hover:bg-green-500 sm:mt-10 sm:w-auto xl:mt-0">
+                Create an account
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<%- include ('./_footer.ejs') %>
+
+</body>
+</html>

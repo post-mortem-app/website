@@ -1,0 +1,10 @@
+{
+  "trailingComma": "all",
+  "semi": true,
+  "singleQuote": true,
+  "jsxBracketSameLine": true,
+  "vueIndentScriptAndStyle": false,
+  "printWidth":200,
+  "quoteProps": "consistent",
+  "bracketSpacing": true
+}
